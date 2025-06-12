@@ -61,6 +61,7 @@ const addTask = () => {
         taskList.remove();
         const removeTask = userTaskList.indexOf(userTask);
         userTaskList.splice(removeTask, 1);
+        taskCount--;
     }
 
     taskDelete.addEventListener("click", deleteTask);
