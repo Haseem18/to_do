@@ -87,8 +87,6 @@ body, html {
 .user_list {
   list-style: none;
   padding: 0;
-  max-height: 300px;
-  overflow-y: auto;
 }
 
 .user_list li:first-child {
