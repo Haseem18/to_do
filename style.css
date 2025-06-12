@@ -130,7 +130,6 @@ li .delete_btn:hover {
   background-color: #b91c1c;
 }
 
-/* Scrollbar Styling (optional) */
 .user_list::-webkit-scrollbar {
   width: 8px;
 }
@@ -139,9 +138,6 @@ li .delete_btn:hover {
   border-radius: 10px;
 }
 
-/* ===========================
-   Responsive Tweaks
-   =========================== */
 @media (max-width: 600px) {
   .to_do_container h1 {
     font-size: 2.2rem;
